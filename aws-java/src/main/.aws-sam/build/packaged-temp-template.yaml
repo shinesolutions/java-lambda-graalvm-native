@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: com.shinesolutions.lambda.App::handleRequest
+      CodeUri: s3://bm-lambda-stuff/5144cda56cf35acfa59cef310fef8f82
+      Runtime: java11
