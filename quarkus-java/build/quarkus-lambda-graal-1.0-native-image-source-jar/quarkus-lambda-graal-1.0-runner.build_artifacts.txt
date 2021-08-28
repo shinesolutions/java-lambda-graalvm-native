@@ -1,3 +1,0 @@
-[EXECUTABLE]
-quarkus-lambda-graal-1.0-runner
-
